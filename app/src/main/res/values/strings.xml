@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Perfect solution</string>
+
+    <string name="about_statement">This app aims to provide a clear introduction on how to use the
+    script, beside some mandatory basic information.</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="contact_us">Contact us</string>
+    <string name="intro_1">Hello / good afternoon, this is Linda smith working with
+    Medicare patients, how are you doing today?</string>
+
+    <string-array name="tuts">
+        <item>Intro</item>
+        <item>Reason for the call</item>
+        <item>The three yeses technique</item>
+        <item>You have pain</item>
+        <item>The offer</item>
+        <item>Product description</item>
+        <item>Checking the eligibility</item>
+        <item>Common Rebuttals</item>
+        <item>Before recording</item>
+        <item>BBS recording</item>
+        <item>DME recording</item>
+        <item>BBS accepted states</item>
+        <item>Important notes</item>
+        <item>All the states</item>
+    </string-array>
+</resources>
