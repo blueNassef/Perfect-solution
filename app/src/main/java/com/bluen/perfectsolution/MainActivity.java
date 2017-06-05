@@ -2,6 +2,7 @@ package com.bluen.perfectsolution;
 
 import android.content.Intent;
 import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -57,15 +58,15 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 String itemValue= (String) lv.getItemAtPosition(position);
-                SoundPool sp= new SoundPool(5, AudioManager.STREAM_MUSIC,0);
-                int soundId= sp.load(getBaseContext(),R.raw.bsound,1);
+                MediaPlayer mp = MediaPlayer.create(getBaseContext(), R.raw.b);
 
                 android.app.FragmentManager fm= getFragmentManager();
                 android.app.FragmentTransaction ft= fm.beginTransaction();
 
                 switch (position){
                     case 0:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
+
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
                         ft.add(R.id.fragContainer,new introClass());
@@ -73,55 +74,55 @@ public class MainActivity extends AppCompatActivity {
                         ft.commit();
                         break;
                     case 1:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new firstJunit());
+                        ft.add(R.id.fragContainer,new reasonClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 2:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new improvingFirstFrag());
+                        ft.add(R.id.fragContainer,new threeYesesClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 3:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new assertTrueFlaseFrag());
+                        ft.add(R.id.fragContainer,new painClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 4:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new beforeAfterFrag());
+                        ft.add(R.id.fragContainer,new offerClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 5:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new beforeClassAfterClassFrag());
+                        ft.add(R.id.fragContainer,new descClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 6:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new comparingArraysFrag());
+                        ft.add(R.id.fragContainer,new eligibilityClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 7:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
                         //ft.add(R.id.fragContainer,new exceptionsHandlingFrag());
@@ -129,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                         ft.commit();
                         break;
                     case 8:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
                         //ft.add(R.id.fragContainer,new performanceTestFrag());
@@ -137,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
                         ft.commit();
                         break;
                     case 9:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
                         //ft.add(R.id.fragContainer,new parametrizedTestFrag());
@@ -145,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
                         ft.commit();
                         break;
                     case 10:
-                        sp.play(soundId,1,1,0,0,1);
+                        mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
                         //ft.add(R.id.fragContainer,new testSuitesFrag());
@@ -195,8 +196,5 @@ public class MainActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-    @Override
-    public void onBackPressed() {
 
-    }
 }

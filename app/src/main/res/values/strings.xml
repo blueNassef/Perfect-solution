@@ -7,7 +7,27 @@
     <string name="exit">Exit</string>
     <string name="contact_us">Contact us</string>
     <string name="intro_1">Hello / good afternoon, this is Linda smith working with
-    Medicare patients, how are you doing today?</string>
+    Medicare patients / seniors, how are you doing today?</string>
+    <string name="reason_1">The reason for the call today is to update your medical
+    profile on the Medicare database system</string>
+    <string name="three_1">I believe I\'m speaking to MRS/Jean gray
+        \n<b><i>(Wait for the first yes)</i></b>
+        \nAnd your over the age of 65 and have Medicare, right?</string>
+    <string name="pain_1">As it shows to me here that you are having arthritis pain in
+    your hands and in your feet which affects your shoulders and your back too, right?</string>
+    <string name="offer_1">Medicare is helping you, it covers for you the latest version
+    of the elastic back support, which you need to wear it only for 30 minutes a day,
+    it will help relive any pain and support your back during any daily activity.
+    <b><i>Totally at no cost to you, covered by Medicare.</i></b></string>
+    <string name="desc_1">It\'s made from synthetic fibers and fabrics, you can wear it
+    under or on your cloth, it doesn\'t have any metal parts inside it, we make sure that
+    you are not allergic to any of the materials.</string>
+    <string name="eligibility_1">So, what I\'m gonna do now, I\'ll check your eligibility
+    on the Medicare system. I\'ve here your first name as <b><i>Jean</i></b> and
+        your last name as <b><i>gray</i></b>, right?\n<b><i>(Wait for the yes)</i></b>
+        \nCould you please verify your date of birth?\nOkay and your are still located at 123 Black road st,
+        NY\n<b><i>(Wait for the yes)</i></b>\n
+    Now i need you to verify your Medicare claim number.</string>
 
     <string-array name="tuts">
         <item>Intro</item>
