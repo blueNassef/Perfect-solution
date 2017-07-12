@@ -23,6 +23,27 @@
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_2"
+            android:textColor="#C0C0C0"
+            android:textSize="30sp"
+            android:id="@+id/desc2"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_3"
+            android:textColor="#C0C0C0"
+            android:textSize="30sp"
+            android:id="@+id/desc3"/>
+
 
     </LinearLayout>
 

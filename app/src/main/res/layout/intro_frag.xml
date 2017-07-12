@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/intro_1"
+            android:text="@string/intro_2"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
             android:id="@+id/intro2"/>

@@ -25,14 +25,18 @@ public class introClass extends Fragment {
         View v= inflater.inflate(R.layout.intro_frag,container,false);
         TextView intro1= (TextView) v.findViewById(R.id.intro1);
         TextView intro2= (TextView) v.findViewById(R.id.intro2);
-
+        final MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
 
 
         intro1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
-                mp.start();
+
+                if(mp.isPlaying()){
+
+                }else {
+                    mp.start();
+                }
             }
         });
         intro2.setOnClickListener(new View.OnClickListener() {

@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ListView lv;
+    private ListView lv, bbsLv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 new ArrayAdapter<>(this, R.layout.custom_listview,Tuts);
         lv= (ListView) findViewById(R.id.listView);
         lv.setAdapter(adap);
+
+
 
         anim.setAnimationListener(new Animation.AnimationListener() {
             @Override
@@ -66,74 +68,55 @@ public class MainActivity extends AppCompatActivity {
                 switch (position){
                     case 0:
                         mp.start();
-
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
                         ft.add(R.id.fragContainer,new introClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 1:
                         mp.start();
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
                         ft.add(R.id.fragContainer,new reasonClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 2:
                         mp.start();
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
                         ft.add(R.id.fragContainer,new threeYesesClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 3:
                         mp.start();
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
                         ft.add(R.id.fragContainer,new painClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 4:
                         mp.start();
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
                         ft.add(R.id.fragContainer,new offerClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 5:
                         mp.start();
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
                         ft.add(R.id.fragContainer,new descClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 6:
                         mp.start();
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
                         ft.add(R.id.fragContainer,new eligibilityClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 7:
                         mp.start();
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new exceptionsHandlingFrag());
+                        ft.add(R.id.fragContainer,new rebuttalsClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
                     case 8:
                         mp.start();
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new performanceTestFrag());
+                        ft.add(R.id.fragContainer,new beforeRecClass());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
@@ -141,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
                         mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new parametrizedTestFrag());
+                        ft.add(R.id.fragContainer,new bbs());
                         ft.addToBackStack("");
                         ft.commit();
                         break;
@@ -149,7 +132,43 @@ public class MainActivity extends AppCompatActivity {
                         mp.start();
                         Toast.makeText(getApplicationContext(),itemValue,
                                 Toast.LENGTH_SHORT).show();
-                        //ft.add(R.id.fragContainer,new testSuitesFrag());
+                        //ft.add(R.id.fragContainer,new DMERec());
+                        ft.addToBackStack("");
+                        ft.commit();
+                        break;
+                    case 11:
+                        mp.start();
+                        Toast.makeText(getApplicationContext(),itemValue,
+                                Toast.LENGTH_SHORT).show();
+                        //ft.add(R.id.fragContainer,new npRec());
+                        ft.addToBackStack("");
+                        ft.commit();
+                        break;
+                    case 12:
+                        mp.start();
+                        ft.add(R.id.fragContainer,new bbsAccClass());
+                        ft.addToBackStack("");
+                        ft.commit();
+                        break;
+                    case 13:
+                        mp.start();
+                        ft.add(R.id.fragContainer,new bbsRejClass());
+                        ft.addToBackStack("");
+                        ft.commit();
+                        break;
+                    case 14:
+                        mp.start();
+                        Toast.makeText(getApplicationContext(),itemValue,
+                                Toast.LENGTH_SHORT).show();
+                        //ft.add(R.id.fragContainer,new insuranceCards());
+                        ft.addToBackStack("");
+                        ft.commit();
+                        break;
+                    case 15:
+                        mp.start();
+                        Toast.makeText(getApplicationContext(),itemValue,
+                                Toast.LENGTH_SHORT).show();
+                        //ft.add(R.id.fragContainer,new notes());
                         ft.addToBackStack("");
                         ft.commit();
                         break;

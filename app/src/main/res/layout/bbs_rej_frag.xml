@@ -13,10 +13,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reason_1"
+            android:text="@string/rej1"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
-            android:id="@+id/reason1"/>
+            android:id="@+id/rej1"/>
 
         <View
             android:layout_width="match_parent"
@@ -26,10 +26,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reason_2"
+            android:text="@string/rej2"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
-            android:id="@+id/reason2"/>
+            android:id="@+id/rej2"/>
 
         <View
             android:layout_width="match_parent"
@@ -39,11 +39,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reason_3"
+            android:text="@string/rej3"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
-            android:id="@+id/reason3"/>
-
+            android:id="@+id/rej3"/>
 
         <View
             android:layout_width="match_parent"
@@ -53,10 +52,50 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reason_4"
+            android:text="@string/rej4"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
-            android:id="@+id/reason4"/>
+            android:id="@+id/rej4"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rej5"
+            android:textColor="#C0C0C0"
+            android:textSize="30sp"
+            android:id="@+id/rej5"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rej6"
+            android:textColor="#C0C0C0"
+            android:textSize="30sp"
+            android:id="@+id/rej6"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rej7"
+            android:textColor="#C0C0C0"
+            android:textSize="30sp"
+            android:id="@+id/rej7"/>
+
 
 
     </LinearLayout>

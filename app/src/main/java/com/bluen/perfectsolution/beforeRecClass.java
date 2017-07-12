@@ -10,28 +10,15 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Created by root on 6/5/17.
+ * Created by root on 6/15/17.
  */
 
-public class offerClass extends Fragment {
-    @Nullable
-    @Override
+public class beforeRecClass extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable final ViewGroup container, Bundle savedInstanceState) {
-        View v= inflater.inflate(R.layout.offer_frag,container,false);
-        TextView offer1= (TextView) v.findViewById(R.id.offer1);
-        TextView offer2= (TextView) v.findViewById(R.id.offer2);
+        View v= inflater.inflate(R.layout.before_rec_frag,container,false);
+        TextView bRec1= (TextView) v.findViewById(R.id.bRec1);
 
-
-
-        offer1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
-                //mp.start();
-            }
-        });
-
-        offer2.setOnClickListener(new View.OnClickListener() {
+        bRec1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);

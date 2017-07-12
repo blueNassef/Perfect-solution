@@ -13,10 +13,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reason_1"
+            android:text="@string/reb_1"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
-            android:id="@+id/reason1"/>
+            android:id="@+id/reb1"/>
 
         <View
             android:layout_width="match_parent"
@@ -26,10 +26,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reason_2"
+            android:text="@string/reb_2"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
-            android:id="@+id/reason2"/>
+            android:id="@+id/reb2"/>
 
         <View
             android:layout_width="match_parent"
@@ -39,10 +39,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reason_3"
+            android:text="@string/reb_3"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
-            android:id="@+id/reason3"/>
+            android:id="@+id/reb3"/>
 
 
         <View
@@ -53,10 +53,36 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/reason_4"
+            android:text="@string/reb_4"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
-            android:id="@+id/reason4"/>
+            android:id="@+id/reb4"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reb_5"
+            android:textColor="#C0C0C0"
+            android:textSize="30sp"
+            android:id="@+id/reb5"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reb_6"
+            android:textColor="#C0C0C0"
+            android:textSize="30sp"
+            android:id="@+id/reb6"/>
 
 
     </LinearLayout>

@@ -6,28 +6,178 @@
     <string name="about">About</string>
     <string name="exit">Exit</string>
     <string name="contact_us">Contact us</string>
+
     <string name="intro_1">Hello / good afternoon, this is Linda smith working with
     Medicare patients / seniors, how are you doing today?</string>
+
+    <string name="intro_2">Good morning / afternoon, this is Linda Smith
+    I\'m a health care specialist working with <b><i>Medicare beneficiaries.</i></b>
+    how are you today?</string>
+
     <string name="reason_1">The reason for the call today is to update your medical
-    profile on the Medicare database system</string>
+    profile on the system</string>
+
+    <string name="reason_2">Well actually we are giving you this call as a free
+    health service provided to you since you have Medicare</string>
+
+    <string name="reason_3">I\'m giving you a call cuz it shows here in your medical
+    profile on the database system that you have arthritis in your hands and feet, does it
+    go anywhere else?</string>
+
+    <string name="reason_4">I\'m giving you a call today cuz I\'m updating your profile
+    on the database system and i need to make sure have you received your brace which
+    is covered by Medicare or not yet.</string>
+
     <string name="three_1">I believe I\'m speaking to MRS/Jean gray
         \n<b><i>(Wait for the first yes)</i></b>
         \nAnd your over the age of 65 and have Medicare, right?</string>
+
     <string name="pain_1">As it shows to me here that you are having arthritis pain in
     your hands and in your feet which affects your shoulders and your back too, right?</string>
+
+    <string name="pain_2">As it shows to me here under your name that you have pain symptoms
+    in your back and knees, right?</string>
+
     <string name="offer_1">Medicare is helping you, it covers for you the latest version
     of the elastic back support, which you need to wear it only for 30 minutes a day,
     it will help relive any pain and support your back during any daily activity.
     <b><i>Totally at no cost to you, covered by Medicare.</i></b></string>
+
+    <string name="offer_2">Well I\'m sorry that you are in pain, so actually i just need to check
+    have you received your back and knee braces covered by Medicare or not yey?\n<b><i>If no</i></b>
+        \nWell i really apologize for this, but actually let me inform you that you will be receiving
+    a back brace and knee brace <b><i>Totally covered by Medicare and under your doctor\'s supervision</i></b>
+    within the next few days right to your door step.</string>
+
     <string name="desc_1">It\'s made from synthetic fibers and fabrics, you can wear it
     under or on your cloth, it doesn\'t have any metal parts inside it, we make sure that
     you are not allergic to any of the materials.</string>
+
+    <string name="desc_2"><b><i>Back brace</i></b>\nThis is the latest version of the
+    back brace which is designed to provide spinal support to relieve lower back pain
+    as it will lift the pressure from your lumbar disc resulting in a pressure free
+    spine, it\'s going to eliminate the pain within only 30 minutes, it provides postural
+        support for your back muscles and your spine and maximizes immobilization without
+    sacrificing comfort and it will be totally covered to you by medicare as a benefit
+    through your insurance company so you will not pay anything for it.</string>
+
+    <string name="desc_3"><b><i>Knee brace</i></b>\nThis is the latest version of the
+    knee braces which is going to eliminate the pain from your knees, it\'s going to
+    stabilize your knee cap, it\'s going to support your knees and your whole body whenever
+    you are doing any kind of activities during the day, it\'s going to improve
+    your blood circulation and it will be totally covered to you  by Medicare
+    so you will not pay anything for it.</string>
+
+
     <string name="eligibility_1">So, what I\'m gonna do now, I\'ll check your eligibility
     on the Medicare system. I\'ve here your first name as <b><i>Jean</i></b> and
         your last name as <b><i>gray</i></b>, right?\n<b><i>(Wait for the yes)</i></b>
         \nCould you please verify your date of birth?\nOkay and your are still located at 123 Black road st,
         NY\n<b><i>(Wait for the yes)</i></b>\n
     Now i need you to verify your Medicare claim number.</string>
+
+    <string name="reb_1"><b><i><u>I have been receiving calls for a year and i never received
+    anything :</u></i></b>\nLet me check something, is your number 123456789. well actually
+    when i put your number on the system here it shows that this is the first time we are
+    calling you, so it wasn\'t us who have been calling you, and i assure you this time
+    you will be receiving the support with the up next couple of weeks.</string>
+
+    <string name="reb_2"><b><i><u>Do you have the name of my doctor? :</u></i></b>
+    \nWell we are only allowed to access your profile to know your part B is activated
+    or not and according to the procedures a Back Brace specialist will give you a
+    call tomorrow and he will take care of that cuz everything has to be through your
+    doctor\'s office since that he is the only one who knows more about the pain you
+    are going through and he is the only one who will decide either tha support is
+    gonna help you or not.</string>
+
+    <string name="reb_3"><b><i><u>I have to talk to my doctor first :</u></i></b>
+    \nBecause we know that your doctor knows well about your pain and understands what
+    you are going through, he will be the only one to decide wither the support is gonna
+    help you or not with the pain you have so according to the procedures we have to go through
+    and one of the most important steps we have to take is we send your paper work to your
+    doctor in order to take his permission first, so don\'t worry we can\'t send you the
+    support without your doctor\'s approval.</string>
+
+    <string name="reb_4"><b><i><u>My claim is the same as my social and i don\'t give my
+    social out :</u></i></b>\nAs you know every senior under Medicare has part A and part B,
+    part B is responsible for the medical equipments, so in order to access you profile
+    and make sure your part B is activated i need you to verify your claim number. i don\'t
+    care if it\'s the same as your social or not, i just need the nine digits followed by a
+    letter on your red white and blue card.</string>
+
+    <string name="reb_5"><b><i><u>Before the recording to not face any issue in the recording :</u></i></b>\n
+    Know according to Medicare regulations I\'m going to put you on a very brief short
+    recording to save your rights and to make sure we have all the correct information\'s
+    by your own voice, OK?</string>
+
+    <string name="reb_6"><b><i><u>Patient has HMO plan :</u></i></b>\nGreat we are done, one of
+    the verification department will call you with in the up next month in order
+    to finalize the process with you and take your measurements, thank you sire and
+    have a good day.</string>
+
+
+
+    <string name="brec_1">You are 100% eligible to receive your free brace, now according
+    to Medicare regulations I\'m going to put you on a very brief short recording to save
+    your rights. I\'m gonna recap all your information so please answer me with clear answers and
+    pretend this is the first time I\'m talking to you.</string>
+
+    <string name="acc1">AL ==> Alabama</string>
+    <string name="acc2">AK ==> Alaska</string>
+    <string name="acc3">AZ ==> Arizona</string>
+    <string name="acc4">AR ==> Arkansas</string>
+    <string name="acc5">CA ==> California</string>
+    <string name="acc6">CO ==> Colorado</string>
+    <string name="acc7">CT ==> Connecticut</string>
+    <string name="acc8">DE ==> Delaware</string>
+    <string name="acc9">FL ==> Florida</string>
+    <string name="acc10">GA ==> Georgia</string>
+    <string name="acc11">IL ==> Illinois</string>
+    <string name="acc12">IN ==> Indiana</string>
+    <string name="acc13">IA ==> Iowa</string>
+    <string name="acc14">KS ==> Kansas</string>
+    <string name="acc15">KY ==> Kentucky</string>
+    <string name="acc16">LA ==> Louisiana</string>
+    <string name="acc17">ME ==> Maine</string>
+    <string name="acc18">MD ==> Maryland</string>
+    <string name="acc19">MA ==> Massachusetts</string>
+    <string name="acc20">MI ==> Michigan</string>
+    <string name="acc21">MN ==> Minnesota</string>
+    <string name="acc22">MS ==> Mississippi</string>
+    <string name="acc23">MO ==> Missouri</string>
+    <string name="acc24">MT ==> Montana</string>
+    <string name="acc25">NE ==> Nebraska</string>
+    <string name="acc26">NV ==> Nevada</string>
+    <string name="acc27">NJ ==> New Jersey</string>
+    <string name="acc28">NM ==> New Mexico</string>
+    <string name="acc29">NY ==> New York</string>
+    <string name="acc30">NC ==> North Carolina</string>
+    <string name="acc31">ND ==> North Dakota</string>
+    <string name="acc32">OK ==> Oklahoma</string>
+    <string name="acc33">PA ==> Pennsylvania</string>
+    <string name="acc34">RI ==> Rhode Island</string>
+    <string name="acc35">sc ==> South Carolina</string>
+    <string name="acc36">SD ==> South Dakota</string>
+    <string name="acc37">TN ==> Tennessee</string>
+    <string name="acc38">TX ==> Texas</string>
+    <string name="acc39">UT ==> Utah</string>
+    <string name="acc40">VA ==> Virginia</string>
+    <string name="acc41">WA ==> Washington</string>
+    <string name="acc42">WA ==> West Virginia</string>
+    <string name="acc43">WI ==> Wisconsin</string>
+    <string name="rej1">HI ==> Hawaii</string>
+    <string name="rej2">ID ==> Idaho</string>
+    <string name="rej3">NH ==> New Hampshire</string>
+    <string name="rej4">OH ==> Ohio</string>
+    <string name="rej5">OR ==> Oregon</string>
+    <string name="rej6">VT ==> Vermont</string>
+    <string name="rej7">WY ==> Wyoming</string>
+    <string name="accepted_states">Accepted states</string>
+    <string name="rejected_states">Rejected states</string>
+    <string name="accepted_insurances_with_PPO">Accepted insurances with PPO</string>
+    <string name="age_limit">Age limit</string>
+    <string name="bbs_rec">Recording</string>
+
 
     <string-array name="tuts">
         <item>Intro</item>
@@ -39,10 +189,18 @@
         <item>Checking the eligibility</item>
         <item>Common Rebuttals</item>
         <item>Before recording</item>
-        <item>BBS recording</item>
-        <item>DME recording</item>
-        <item>BBS accepted states</item>
+        <item>BBS campaign</item>
+        <item>DME campaign</item>
+        <item>Orthotic campaign</item>
+        <item>NP campaign</item>
         <item>Important notes</item>
-        <item>All the states</item>
+    </string-array>
+
+    <string-array name="bbs">
+        <item>Condition</item>
+        <item>Accepted states</item>
+        <item>Rejected states</item>
+        <item>Accepted secondary insurance</item>
+        <item>The recording</item>
     </string-array>
 </resources>
