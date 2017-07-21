@@ -1,9 +1,7 @@
 package com.bluen.perfectsolution;
 
 import android.content.Intent;
-import android.media.AudioManager;
 import android.media.MediaPlayer;
-import android.media.SoundPool;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -15,12 +13,14 @@ import android.view.animation.Animation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ListView lv, bbsLv;
+    private ListView lv;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -122,8 +122,6 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 9:
                         mp.start();
-                        Toast.makeText(getApplicationContext(),itemValue,
-                                Toast.LENGTH_SHORT).show();
                         ft.add(R.id.fragContainer,new bbs());
                         ft.addToBackStack("");
                         ft.commit();

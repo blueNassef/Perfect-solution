@@ -1,11 +1,16 @@
 package com.bluen.perfectsolution;
 
 import android.app.Fragment;
+import android.app.FragmentTransaction;
+import android.media.MediaPlayer;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,6 +20,8 @@ import android.widget.Toast;
 
 public class bbs extends Fragment {
     TextView accStates,rejStates,accPPO,ageLimit,bbsRec;
+    LinearLayout bbsLayout;
+    private MediaPlayer mp;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable final ViewGroup container, Bundle savedInstanceState) {
@@ -25,45 +32,49 @@ public class bbs extends Fragment {
         ageLimit= (TextView)v.findViewById(R.id.ageLimit);
         bbsRec= (TextView)v.findViewById(R.id.bbsRec);
 
+        bbsLayout= (LinearLayout)v.findViewById(R.id.bbsLayout);
+        bbsLayout.setVisibility(View.VISIBLE);
+
         accStates.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Accepted states",Toast.LENGTH_LONG).show();
+                mp = MediaPlayer.create(getActivity(), R.raw.b);
+                mp.start();
+                Toast.makeText(getActivity(),"FUCK!!!",Toast.LENGTH_LONG).show();
+
+                Fragment videoFragment = new bbsAccClass();
+                FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
+                transaction.add(R.id.fragContainerBBS, videoFragment).commit();
             }
         });
 
-        accStates.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getActivity(),"Accepted states",Toast.LENGTH_LONG).show();
-            }
-        });
 
         rejStates.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Rejected states",Toast.LENGTH_LONG).show();
+
             }
         });
 
         accPPO.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Accepted PPO",Toast.LENGTH_LONG).show();
+
             }
         });
 
         ageLimit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Age limit",Toast.LENGTH_LONG).show();
+
             }
         });
 
         bbsRec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"rec",Toast.LENGTH_LONG).show();
+
             }
         });
 
