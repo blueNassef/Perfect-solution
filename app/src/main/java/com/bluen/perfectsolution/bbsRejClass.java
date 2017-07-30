@@ -33,7 +33,7 @@ public class bbsRejClass extends Fragment {
         TextView rej6= (TextView) v.findViewById(R.id.rej6);
         TextView rej7= (TextView) v.findViewById(R.id.rej7);
 
-
+/*
         mprej1 = MediaPlayer.create(getActivity(), R.raw.intro1);
         mprej2 = MediaPlayer.create(getActivity(), R.raw.intro1);
         mprej3 = MediaPlayer.create(getActivity(), R.raw.intro1);
@@ -44,7 +44,7 @@ public class bbsRejClass extends Fragment {
 
 
 
-
+*/
 
         rej1.setOnClickListener(new View.OnClickListener() {
             @Override

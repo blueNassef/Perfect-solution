@@ -25,7 +25,7 @@ public class eligibilityClass extends Fragment {
         eligibility1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
+               // MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
                 //mp.start();
             }
         });

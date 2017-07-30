@@ -62,7 +62,7 @@ public class bbsAccClass extends Fragment {
         TextView acc41= (TextView) v.findViewById(R.id.acc41);
         TextView acc42= (TextView) v.findViewById(R.id.acc42);
         TextView acc43= (TextView) v.findViewById(R.id.acc43);
-
+/*
         final MediaPlayer mpAcc1 = MediaPlayer.create(getActivity(), R.raw.intro1);
         final MediaPlayer mpAcc2 = MediaPlayer.create(getActivity(), R.raw.intro1);
         final MediaPlayer mpAcc3 = MediaPlayer.create(getActivity(), R.raw.intro1);
@@ -626,7 +626,7 @@ public class bbsAccClass extends Fragment {
             }
         });
 
-
+*/
         return v;
     }
 }

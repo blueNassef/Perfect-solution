@@ -18,24 +18,31 @@ public class painClass extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable final ViewGroup container, Bundle savedInstanceState) {
         View v= inflater.inflate(R.layout.pain_frag,container,false);
+        TextView pain= (TextView) v.findViewById(R.id.pain);
         TextView pain1= (TextView) v.findViewById(R.id.pain1);
-        TextView pain2= (TextView) v.findViewById(R.id.pain2);
 
+        final MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.pain);
+        final MediaPlayer mp1 = MediaPlayer.create(getActivity(), R.raw.pain_1);
 
+        pain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(mp.isPlaying()||mp1.isPlaying()){
+
+                }else {
+                    mp.start();
+                }
+            }
+        });
 
         pain1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
-                //mp.start();
-            }
-        });
+                if(mp.isPlaying()||mp1.isPlaying()){
 
-        pain2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
-                //mp.start();
+                }else {
+                    mp1.start();
+                }
             }
         });
         return v;

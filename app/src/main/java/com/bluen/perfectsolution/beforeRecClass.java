@@ -21,7 +21,7 @@ public class beforeRecClass extends Fragment {
         bRec1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
+              //  MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
                 //mp.start();
             }
         });

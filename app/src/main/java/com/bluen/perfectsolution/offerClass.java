@@ -26,7 +26,7 @@ public class offerClass extends Fragment {
         offer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
+              //  MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
                 //mp.start();
             }
         });
@@ -34,7 +34,7 @@ public class offerClass extends Fragment {
         offer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
+               // MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
                 //mp.start();
             }
         });

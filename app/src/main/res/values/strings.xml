@@ -7,35 +7,35 @@
     <string name="exit">Exit</string>
     <string name="contact_us">Contact us</string>
 
-    <string name="intro_1">Hello / good afternoon, this is Linda smith working with
-    Medicare patients / seniors, how are you doing today?</string>
+    <string name="intro_1">Hello / good afternoon, this is Linda working with
+    <b><i>Medicare patients</i></b> / seniors, how are you doing today?</string>
 
-    <string name="intro_2">Good morning / afternoon, this is Linda Smith
-    I\'m a health care specialist working with <b><i>Medicare beneficiaries.</i></b>
-    how are you today?</string>
+    <string name="intro_2">Hello / afternoon, this is Linda
+    ,a health care specialist working with <b><i>Medicare beneficiaries.</i></b>
+    how are you doing today?</string>
 
-    <string name="reason_1">The reason for the call today is to update your medical
+    <string name="reason">The reason for the call today is to update your medical
     profile on the system</string>
 
-    <string name="reason_2">Well actually we are giving you this call as a free
+    <string name="reason_1">Well actually we are giving you this call as a free
     health service provided to you since you have Medicare</string>
 
-    <string name="reason_3">I\'m giving you a call cuz it shows here in your medical
-    profile on the database system that you have arthritis in your hands and feet, does it
-    go anywhere else?</string>
+    <string name="reason_2">I\'m giving you this call today as it shows to me here in your medical
+    records, that you have arthritis pain in your hands and in your feet, which affects your shoulders
+        and your back too, right?</string>
 
-    <string name="reason_4">I\'m giving you a call today cuz I\'m updating your profile
-    on the database system and i need to make sure have you received your brace which
-    is covered by Medicare or not yet.</string>
+    <string name="reason_3">I\'m giving you this call today as I\'m updating your medical profile
+    on the system and i need to make sure, have you received your brace which
+    is covered by Medicare or not yet?</string>
 
-    <string name="three_1">I believe I\'m speaking to MRS/Jean gray
+    <string name="three_yeses">I believe I\'m speaking to MRS/Jean gray
         \n<b><i>(Wait for the first yes)</i></b>
         \nAnd your over the age of 65 and have Medicare, right?</string>
 
-    <string name="pain_1">As it shows to me here that you are having arthritis pain in
+    <string name="pain">As it shows to me here that you are having arthritis pain in
     your hands and in your feet which affects your shoulders and your back too, right?</string>
 
-    <string name="pain_2">As it shows to me here under your name that you have pain symptoms
+    <string name="pain_1">As it shows to me here under your name that you have pain symptoms
     in your back and knees, right?</string>
 
     <string name="offer_1">Medicare is helping you, it covers for you the latest version

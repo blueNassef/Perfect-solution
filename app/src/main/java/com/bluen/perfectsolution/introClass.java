@@ -18,31 +18,37 @@ import android.widget.Toast;
 
 public class introClass extends Fragment {
 
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable final ViewGroup container, Bundle savedInstanceState) {
         View v= inflater.inflate(R.layout.intro_frag,container,false);
+        TextView intro= (TextView) v.findViewById(R.id.intro);
         TextView intro1= (TextView) v.findViewById(R.id.intro1);
-        TextView intro2= (TextView) v.findViewById(R.id.intro2);
-        final MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
+
+        final MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro);
+        final MediaPlayer mp1 = MediaPlayer.create(getActivity(), R.raw.intro_1);
 
 
-        intro1.setOnClickListener(new View.OnClickListener() {
+        intro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if(mp.isPlaying()){
+                if(mp.isPlaying()||mp1.isPlaying()){
 
                 }else {
                     mp.start();
                 }
             }
         });
-        intro2.setOnClickListener(new View.OnClickListener() {
+        intro1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                if(mp1.isPlaying()||mp.isPlaying()){
+
+                }else {
+                    mp1.start();
+                }
             }
         });
 

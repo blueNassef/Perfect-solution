@@ -22,7 +22,7 @@ public class rebuttalsClass extends Fragment {
         TextView reb4= (TextView) v.findViewById(R.id.reb4);
         TextView reb5= (TextView) v.findViewById(R.id.reb5);
         TextView reb6= (TextView) v.findViewById(R.id.reb6);
-
+/*
         reb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,6 +70,7 @@ public class rebuttalsClass extends Fragment {
                 //mp.start();
             }
         });
+        */
         return v;
     }
 }

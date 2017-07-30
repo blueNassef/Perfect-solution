@@ -13,6 +13,19 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/reason"
+            android:textColor="#C0C0C0"
+            android:textSize="30sp"
+            android:id="@+id/reason"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/reason_1"
             android:textColor="#C0C0C0"
             android:textSize="30sp"
@@ -31,6 +44,7 @@
             android:textSize="30sp"
             android:id="@+id/reason2"/>
 
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -43,20 +57,6 @@
             android:textColor="#C0C0C0"
             android:textSize="30sp"
             android:id="@+id/reason3"/>
-
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/reason_4"
-            android:textColor="#C0C0C0"
-            android:textSize="30sp"
-            android:id="@+id/reason4"/>
 
 
     </LinearLayout>

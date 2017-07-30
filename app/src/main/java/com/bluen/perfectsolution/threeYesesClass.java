@@ -18,15 +18,19 @@ public class threeYesesClass extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable final ViewGroup container, Bundle savedInstanceState) {
         View v= inflater.inflate(R.layout.three_yeses_frag,container,false);
-        TextView threeYeses= (TextView) v.findViewById(R.id.three1);
+        TextView threeYeses= (TextView) v.findViewById(R.id.three);
 
-
+        final MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.three_yeses);
 
         threeYeses.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = MediaPlayer.create(getActivity(), R.raw.intro1);
-                //mp.start();
+
+                if(mp.isPlaying()){
+
+                }else {
+                    mp.start();
+                }
             }
         });
         return v;
